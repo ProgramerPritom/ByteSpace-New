@@ -6,6 +6,7 @@ import DiversePathsSection from "@/components/diverse-paths-section";
 import GrowthFeaturesSection from "@/components/growth-features-section";
 import CtaSection from "@/components/cta-section";
 import TestimonialsSection from "@/components/testimonials-section";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <GrowthFeaturesSection />
       <CtaSection />
       <TestimonialsSection />
+      <Footer />
     </main>
   );
 }
