@@ -2,6 +2,8 @@
 node_modules/
 
 # Build output
+.next/
+out/
 dist/
 build/
 *.tsbuildinfo
@@ -40,4 +42,11 @@ desktop.ini
 .eslintcache
 .prettiercache
 
-docs/
+
+# AI Task & Agent files
+ai-task/
+AGENTS.md
+CLAUDE.md
+courses-frame-data.json
+courses-data.json
+header-data.json
