@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Star, BarChart } from "lucide-react";
 
 const CATEGORIES = [
@@ -140,9 +141,10 @@ export default function CoursesSection() {
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {COURSES.map((course) => (
-            <div
+            <Link
               key={course.id}
-              className="w-full bg-white rounded-[24px] p-3.5 border border-[#E5E7EB] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-md transition-shadow"
+              href={`/courses/${course.id}`}
+              className="w-full bg-white rounded-[24px] p-3.5 border border-[#E5E7EB] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-md hover:border-[#CED0D3] transition-all block cursor-pointer"
             >
               <div className="relative w-full aspect-[4/2.6] rounded-[16px] overflow-hidden bg-[#F3F4F6]">
                 <img src={course.thumbnail} alt={course.title} className="w-full h-full object-cover" />
@@ -204,7 +206,7 @@ export default function CoursesSection() {
                   </p>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
