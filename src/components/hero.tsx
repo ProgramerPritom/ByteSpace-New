@@ -42,10 +42,8 @@ export default function Hero() {
           </form>
         </div>
 
-        {/* Lime Circle */}
         <div className="absolute top-[462px] left-1/2 -translate-x-1/2 w-[1149px] h-[1149px] rounded-full bg-[#D4FB20] pointer-events-none" />
 
-        {/* 3D Ornaments */}
         <div className="absolute top-[101px] left-1/2 -translate-x-1/2 w-[1719px] h-[803px] pointer-events-none z-10">
           <Image
             src="/hero/3d-ornaments.png"
@@ -57,7 +55,6 @@ export default function Hero() {
           />
         </div>
 
-        {/* Student Image */}
         <div className="absolute bottom-[-118px] left-1/2 -translate-x-1/2 w-[578px] z-20 pointer-events-none flex justify-center items-end">
           <Image
             src="/hero/student.png"
@@ -69,7 +66,6 @@ export default function Hero() {
           />
         </div>
 
-        {/* UI/UX Design Card */}
         <div className="absolute left-[336px] top-[519px] w-[208px] h-[70px] bg-white rounded-[16px] px-4 py-3 shadow-[0_12px_32px_rgba(0,0,0,0.12)] flex flex-col justify-center z-30">
           <h4 className="text-[16px] font-bold text-[#18191D] leading-tight">
             UI/UX Design
@@ -79,7 +75,6 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Learning Progress Card */}
         <div className="absolute left-[883px] top-[531px] w-[232px] h-[131px] bg-white rounded-[20px] p-5 shadow-[0_12px_32px_rgba(0,0,0,0.12)] z-30">
           <p className="text-[14px] font-medium text-[#666973]">
             Learning Progress
@@ -92,7 +87,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Happy Students Card */}
         <div className="absolute left-[259px] top-[717px] w-[258px] h-[121px] bg-white rounded-[20px] p-4 shadow-[0_12px_32px_rgba(0,0,0,0.12)] z-30">
           <h4 className="text-[16px] font-bold text-[#18191D] leading-tight">
             Happy Students
