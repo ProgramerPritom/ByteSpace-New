@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import {
@@ -341,12 +342,12 @@ export default function CourseDetailsContent() {
                   <p className="text-[13px] text-[#565A65] font-['Satoshi',sans-serif] leading-relaxed">
                     Ready to Dive In? Enroll Now and Start Building Your Digital Future!
                   </p>
-                  <button
-                    type="button"
+                  <Link
+                    href="/creators/1"
                     className="w-[139px] h-[35px] px-4 py-2 rounded-full border border-[#CED0D3] bg-white text-[13px] font-medium text-[#242528] hover:bg-gray-50 transition-colors font-['Satoshi',sans-serif] cursor-pointer flex items-center justify-center shrink-0"
                   >
                     See Full Profile
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
