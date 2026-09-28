@@ -2,6 +2,8 @@ import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import LogoPartners from "@/components/logo-partners";
 import CoursesSection from "@/components/courses-section";
+import DiversePathsSection from "@/components/diverse-paths-section";
+import GrowthFeaturesSection from "@/components/growth-features-section";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       </div>
       <LogoPartners />
       <CoursesSection />
+      <DiversePathsSection />
+      <GrowthFeaturesSection />
     </main>
   );
 }
