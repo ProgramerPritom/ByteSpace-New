@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { Search, ChevronDown, ChevronLeft, ChevronRight, Star, BarChart, Filter } from "lucide-react";
@@ -401,9 +402,10 @@ export default function SearchPageContent() {
 
           <div className="mt-12 lg:mt-[72px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
             {SEARCH_COURSES.map((course) => (
-              <div
+              <Link
                 key={course.id}
-                className="w-full max-w-[373px] bg-white rounded-[24px] p-3.5 border border-[#CED0D3] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-md transition-shadow flex flex-col justify-between"
+                href={`/courses/${course.id}`}
+                className="w-full max-w-[373px] bg-white rounded-[24px] p-3.5 border border-[#CED0D3] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-md hover:border-[#003BE2]/40 transition-all flex flex-col justify-between block cursor-pointer"
               >
                 <div>
                   <div className="relative w-full aspect-[4/2.6] rounded-[16px] overflow-hidden bg-[#F3F4F6]">
@@ -484,7 +486,7 @@ export default function SearchPageContent() {
                     </span>
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 
