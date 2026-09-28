@@ -4,6 +4,8 @@ import LogoPartners from "@/components/logo-partners";
 import CoursesSection from "@/components/courses-section";
 import DiversePathsSection from "@/components/diverse-paths-section";
 import GrowthFeaturesSection from "@/components/growth-features-section";
+import CtaSection from "@/components/cta-section";
+import TestimonialsSection from "@/components/testimonials-section";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <CoursesSection />
       <DiversePathsSection />
       <GrowthFeaturesSection />
+      <CtaSection />
+      <TestimonialsSection />
     </main>
   );
 }
