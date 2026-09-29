@@ -8,7 +8,7 @@ export default function AuthVisualCluster() {
       {/* 3D Lime Donut: 100% unclipped full ring framing top-left of front card */}
       <div className="absolute -top-7 sm:-top-8 left-[25px] sm:left-[68px] z-30 w-24 h-24 sm:w-28 sm:h-28 pointer-events-none">
         <img
-          src="/hero/ornament-donut-lime-full.png"
+          src="/hero/ornament-donut-lime.png"
           alt="Lime Donut"
           className="w-full h-full object-contain drop-shadow-xl"
         />
@@ -117,7 +117,7 @@ export default function AuthVisualCluster() {
       {/* 3D Lime Pyramid: 100% unclipped full pyramid */}
       <div className="absolute bottom-2 sm:bottom-3 -left-5 sm:-left-7 z-30 w-32 h-32 sm:w-36 sm:h-36 pointer-events-none">
         <img
-          src="/hero/ornament-pyramid-lime-full.png"
+          src="/hero/ornament-pyramid-lime.png"
           alt="Lime Pyramid"
           className="w-full h-full object-contain drop-shadow-2xl"
         />
@@ -126,7 +126,7 @@ export default function AuthVisualCluster() {
       {/* 3D White Zigzag: 100% unclipped full zigzag ribbon */}
       <div className="absolute bottom-20 sm:bottom-24 -right-3 sm:-right-6 z-30 w-24 h-24 sm:w-28 sm:h-28 pointer-events-none">
         <img
-          src="/hero/ornament-zigzag-full.png"
+          src="/hero/ornament-zigzag.png"
           alt="White Zigzag Ribbon"
           className="w-full h-full object-contain drop-shadow-xl"
         />
